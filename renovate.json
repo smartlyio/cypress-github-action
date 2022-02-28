@@ -19,5 +19,13 @@
   "timezone": "America/New_York",
   "schedule": [
     "every weekend"
-  ]
+  ],
+  "github-actions": {
+    "enabled": true,
+    "labels": [
+      "no release",
+      "renovate-deps"
+    ],
+    "automerge": true
+  }
 }
